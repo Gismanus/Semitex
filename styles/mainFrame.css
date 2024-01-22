@@ -1,12 +1,56 @@
 .mainFrame {
-    background: #1C0A90;
-    position: relative;
-    padding-top: 50px;
-    min-height: 100px;
+  background: rgb(28, 10, 144);
+  color: #fff;
+  position: relative;
+  padding-top: 50px;
+  min-height: 850px;
 }
 
-@media (max-width: 760px){
-    .mainFrame{
-        padding-top: 0;
-    }
+.mainFrame__form {
+  height: 470px;
+  width: 380px;
+  background: #a00;
+}
+.mainFrame__descriptor {
+  width: 800px;
+  height: 470px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainFrame__descriptor h1 {
+  text-transform: uppercase;
+}
+.mainFrame__descriptor h2 {
+  color: #969af7;
+}
+.mainFrame__descriptor p {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+.mainFrame__descriptor ul {
+  font-size: 1.25em;
+  font-weight: 400;
+  padding: 25px;
+}
+.mainFrame__descriptor li {
+  font-size: 1.1em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.mainFrame__descriptor .checkIcon {
+  height: 11px;
+  width: 14px;
+  background: url('../images/CheckIcon.svg');
+  margin-right: 10px;
+  
+}
+
+@media (max-width: 760px) {
+  .mainFrame {
+    padding-top: 0;
+  }
 }

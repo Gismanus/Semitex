@@ -1,9 +1,10 @@
 .header{
-   padding: 5px 20px;
-    color: #fff;
+   padding: 10px 20px;
     align-items: center;
     position: sticky;
-    top: 5px;
+    top: -7px;
+    background: rgba(28, 10, 144);
+    margin-bottom: 50px;
 }
 
 .header__logo {
