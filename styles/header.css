@@ -1,8 +1,68 @@
 .header{
-    margin: 20px;   
+   padding: 5px 20px;
+    color: #fff;
+    align-items: center;
+    position: sticky;
+    top: 5px;
 }
 
 .header__logo {
-    width: 155px;
+    width: 150px;
     height: 30px;
+    order:1;
 }
+.header__nav {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    order:1;
+}
+
+.header__nav>li{
+    padding:0 7px;
+}
+.header__phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order:1;
+}
+.header__phoneIcon{
+    background: url('../images/PhoneIcon.svg');
+    width: 33px;
+    height: 33px;
+    
+    
+}
+.header__phoneNumbers{
+    margin-left: 10px;
+}
+@media (max-width: 760px) {
+    
+    .header__logo{
+        height: 20px;
+        width: 100px;
+    }
+
+    .header__nav{
+        width: 20px;
+        height:20px;
+        background: url('../images/MenuIcon.svg') 50% 50% no-repeat, #fff;
+        background-size: 80%;
+        order:0;
+        border-radius: 50%;
+    }
+    .header__nav>li{
+        display: none;
+    }
+    .header__phoneIcon{
+        width:20px;
+        height: 20px;
+        background-size: 100%;
+
+    }
+    .header__phoneNumbers{
+        display: none;
+    }
+  }
+  

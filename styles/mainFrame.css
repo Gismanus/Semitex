@@ -1,0 +1,12 @@
+.mainFrame {
+    background: #1C0A90;
+    position: relative;
+    padding-top: 50px;
+    min-height: 100px;
+}
+
+@media (max-width: 760px){
+    .mainFrame{
+        padding-top: 0;
+    }
+}
