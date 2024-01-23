@@ -85,11 +85,17 @@ form .LockIcon {
 
   /* It is button and it is in header ↓*/
   .formIcon {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    padding: 10px;
     display: block;
-    background: url("../images/FormIcon.svg") 0 0;
-    width: 20px;
-    height: 20px;
+    background: url("../images/FormIcon.svg"), linear-gradient(#6a32b4, #552693);
+    opacity: 0.5;
+    background-position: 2px 2px;
+    width: 23px;
+    height: 23px;
     background-size: 100% 100%;
-    border-radius: 50%;
+    border-radius: 5px;
   }
 }

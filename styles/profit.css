@@ -5,6 +5,7 @@
 
 .profit__title {
     font-size: 45px;
+    font-weight: 900;
 }
 
 .profit__descripttion{
@@ -15,11 +16,72 @@
 .profit__cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between ;
 }
 
 .card{
-    flex: 1 370px;
+    width: 310px;
     margin: 10px;
-    height: 400px;
-    background-color: #aaa;
+    padding: 40px 30px 60px;
+    height: 300px;
+    background: url('../images/CardsDecorator.svg') no-repeat;
+    background-position: right bottom;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__image{
+    width: 160px;
+    height: 160px;
+}
+
+.card__title {
+    color: #2A336C;
+    font-weight: 700;
+}
+.card__description{
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 760px) {
+    .profit{
+       
+        padding: 20px 0;
+    }
+    
+    .profit__title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .profit__descripttion{
+        font-size: 16px;
+        margin: 25px auto;
+    }
+    
+    .card{
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+        padding: 10px 5px;
+        background-color: #aaa;
+    }
+
+    .card__image{
+        width: 70px;
+        height: 70px;
+    }
+    .card__title {
+        font-size: 10px;
+    }
+    .card__description{
+        font-size: 10px;
+        height: 40px;
+    }
 }

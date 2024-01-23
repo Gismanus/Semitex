@@ -27,7 +27,7 @@
 .header__nav>li{
     padding:0 7px;
 }
-.header__phone{
+a.header__phone{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,13 +51,14 @@
 @media (max-width: 760px) {
     .header{
         margin-bottom: 0;
+        flex-direction: row-reverse;
     }
     
     
     .header__logo{
         height: 20px;
         width: 100px;
-        order: 0;
+        order: 1;
     }
 
     .header__nav{
@@ -65,7 +66,7 @@
         height:20px;
         background: url('../images/MenuIcon.svg') 50% 50% no-repeat, #fff;
         background-size: 80%;
-        order:4;
+        order:0;
         border-radius: 50%;
     }
     .header__nav>li{
@@ -78,7 +79,7 @@
 
     }
     .header__phoneNumbers{
-        display: none;
+        
     }
   }
   
