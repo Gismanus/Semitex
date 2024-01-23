@@ -1,0 +1,6 @@
+.manufactures {
+    background: url('../images/Wave_routed.svg') no-repeat, url('../images/ManufacuresBackground.svg') no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+    height: 500px;
+}
