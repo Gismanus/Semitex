@@ -1,6 +1,6 @@
 .mainFrame {
-  background: url("../images/MainFrameBackground.svg") no-repeat;
-  background-size: cover ;
+  background: url('../images/Wave.svg') no-repeat bottom, url("../images/MainFrameBackground.svg") no-repeat;
+  background-size: 100%;
   color: #fff;
   padding-top: 100px;
   padding-bottom: 150px;
