@@ -52,6 +52,7 @@
 }
 .mainFrame__descriptor ul .checkIcon {
   background: url("../images/CheckIcon.svg");
+  background-size: 100%;
   height: 11px;
   width: 14px;
   margin-right: 10px;
