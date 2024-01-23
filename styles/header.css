@@ -3,7 +3,7 @@
     align-items: center;
     position: sticky;
     top: -7px;
-    background: rgba(28, 10, 144);
+    background: rgba(28, 10, 144, 0.5);
     margin-bottom: 50px;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     font-weight: 200;
-    order:1;
+    order:2;
 }
 
 .header__nav>li{
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    order:1;
+    order:3;
 }
 .header__phoneIcon{
     background: url('../images/PhoneIcon.svg');
@@ -38,11 +38,19 @@
 .header__phoneNumbers{
     margin-left: 10px;
 }
+
+.formIcon{
+    order: 4;
+}
 @media (max-width: 760px) {
+    .header{
+        margin-bottom: 20px;
+    }
     
     .header__logo{
         height: 20px;
         width: 100px;
+        order: 0;
     }
 
     .header__nav{
@@ -50,7 +58,7 @@
         height:20px;
         background: url('../images/MenuIcon.svg') 50% 50% no-repeat, #fff;
         background-size: 80%;
-        order:0;
+        order:4;
         border-radius: 50%;
     }
     .header__nav>li{

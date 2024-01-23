@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/mainFrame.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/form.css" />
   </head>
   <body>
     <div class="mainFrame">
@@ -25,6 +26,7 @@
             <li><a href="#"> FAQ </a></li>
             <li><a href="#"> Контакты </a></li>
           </ul>
+          <div class="formIcon"></div>
           <div class="header__phone">
             <div class="header__phoneIcon">
               <!-- used image css Background -->
@@ -43,13 +45,46 @@
             Подберем аналоги популярных брендов из Европы в условиях санкций.
           </p>
           <ul>
-            <li><div class="checkIcon"></div>  Отсрочка платежей для постоянных клиентов</li>
-            <li><div class="checkIcon"></div>Бесплатная доставка по Москве и СПБ в течение 2х часов</li>
-            <li><div class="checkIcon"></div>Квалифицированный персональный менеджер</li>
+            <li>
+              <div class="checkIcon"></div>
+              Отсрочка платежей для постоянных клиентов
+            </li>
+            <li>
+              <div class="checkIcon"></div>
+              Бесплатная доставка по Москве и СПБ в течение 2х часов
+            </li>
+            <li>
+              <div class="checkIcon"></div>
+              Квалифицированный персональный менеджер
+            </li>
           </ul>
         </div>
-        <form action="#" class="mainFrame__form">
-          <h2>Закажите обратный звонок</h2>
+        
+        <form action="#">
+          <legend>Закажите обратный звонок</legend>
+          <fieldset>
+            <label>
+              <p>Ваше имя*</p>
+              <input type="text" name="name" value="Петров Петр" />
+            </label>
+
+            <label>
+              <p>Ваш номер*</p>
+              <input
+                type="text"
+                name="phone"
+                value="+7 (_ _ _) _ _ _-_ _-_ _"
+              />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <button>Заказать звонок</button>
+            <span class="confidentiality"
+              ><div class="LockIcon"></div>
+              Мы гарантируем конфиденциальность данных</span
+            >
+          </fieldset>
         </form>
       </div>
     </div>

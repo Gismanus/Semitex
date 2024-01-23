@@ -1,56 +1,56 @@
 .mainFrame {
-  background: rgb(28, 10, 144);
+  background: url('../images/MainFrameBackground.svg') 100% 100%;
   color: #fff;
   position: relative;
   padding-top: 50px;
-  min-height: 850px;
+  padding-bottom: 150px;
 }
 
-.mainFrame__form {
-  height: 470px;
-  width: 380px;
-  background: #a00;
-}
+/* MAINFRAIME FONTS ↓*/
 .mainFrame__descriptor {
-  width: 800px;
-  height: 470px;
-  font-weight: 900;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    width: 60%;
+}
+.mainFrame__descriptor h1,
+.mainFrame__descriptor h2 {
+  text-transform: uppercase;
 }
 .mainFrame__descriptor h1 {
-  text-transform: uppercase;
+  font-size: 66px;
+  font-weight: 900;
 }
 .mainFrame__descriptor h2 {
   color: #969af7;
+  font-size: 45px;
+  font-weight: 900;
 }
 .mainFrame__descriptor p {
-  font-size: 1.25em;
-  font-weight: 200;
-}
-.mainFrame__descriptor ul {
-  font-size: 1.25em;
+  color: #969af7;
+  font-size: 22px;
   font-weight: 400;
-  padding: 25px;
 }
-.mainFrame__descriptor li {
-  font-size: 1.1em;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+/* MAINFRAIME FONTS ↑*/
+
+/* MAINFRAIME GAPS ↓*/
+.mainFrame__descriptor {
 }
-.mainFrame__descriptor .checkIcon {
-  height: 11px;
-  width: 14px;
-  background: url('../images/CheckIcon.svg');
-  margin-right: 10px;
-  
+.mainFrame__descriptor h1 {
+  margin: 20px 0;
 }
 
-@media (max-width: 760px) {
-  .mainFrame {
-    padding-top: 0;
-  }
+.mainFrame__descriptor ul {
+  margin: 20px 0;
+  padding: 25px;
 }
+.mainFrame__descriptor ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  
+}
+.mainFrame__descriptor ul .checkIcon {
+  background: url("../images/checkIcon.svg");
+  height: 11px;
+  width: 14px;
+  margin-right: 10px;
+}
+/* MAINFRAIME GAPS ↑*/
