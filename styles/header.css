@@ -1,10 +1,15 @@
 .header{
-   padding: 10px 20px;
+   padding: 10px 0;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: -7px;
-    background: rgba(28, 10, 144, 0.5);
-    margin-bottom: 50px;
+    background: rgba(28, 10, 144, 0.8);
+    margin: 0 auto 50px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__logo {
@@ -47,6 +52,7 @@
     .header{
         margin-bottom: 0;
     }
+    
     
     .header__logo{
         height: 20px;

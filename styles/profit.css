@@ -1,0 +1,25 @@
+.profit{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profit__title {
+    font-size: 45px;
+}
+
+.profit__descripttion{
+    font-size: 22px;
+    margin: 25px auto;
+}
+
+.profit__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1 370px;
+    margin: 10px;
+    height: 400px;
+    background-color: #aaa;
+}
