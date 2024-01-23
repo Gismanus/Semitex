@@ -1,8 +1,8 @@
 .formIcon {
-    display: none;
-    background: url('../images/FormIcon.svg');
-    width: 20px;
-    height: 20px;
+  display: none;
+  background: url("../images/FormIcon.svg");
+  width: 20px;
+  height: 20px;
 }
 
 form {
@@ -41,7 +41,10 @@ form label input {
   font-size: 18px;
   padding: 20px;
   border-radius: 10px;
+  border: 0;
   color: #bcbfc4;
+  background-color: #F5F3FF;
+  box-shadow: -1px -1px rgba(0, 0, 0, 0.1);
 }
 form label input:focus {
   outline: 0;
@@ -52,12 +55,13 @@ form label input:active {
 
 form button {
   color: #fff;
-  background: #FFA500;
+  background: #ffa500;
   text-transform: uppercase;
   font-size: 18px;
   padding: 20px;
   width: 100%;
   border-radius: 10px;
+  border: 0;
   margin: 10px 0;
 }
 
@@ -68,17 +72,19 @@ form span.confidentiality {
   justify-content: center;
 }
 
-form .LockIcon{
-    height: 16px;
-    width: 16px;
-    background: url('../images/LockIcon.svg');
+form .LockIcon {
+  height: 16px;
+  width: 16px;
+  background: url("../images/LockIcon.svg");
+  margin-right: 5px;
 }
-@media (max-width: 760px){
-    form{
-        display: none;
-    }
+@media (max-width: 760px) {
+  form {
+    display: none;
+  }
 
-    .formIcon {
-        display: block;
-    }
+  /* It is button and it is in header ↓*/
+  .formIcon {
+    display: block;
+  }
 }
