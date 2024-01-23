@@ -1,6 +1,48 @@
 .manufactures {
-    background: url('../images/Wave_routed.svg') no-repeat, url('../images/ManufacuresBackground.svg') no-repeat;
+    background: url('../images/Wave_routed.svg') no-repeat 0 -0.5%, url('../images/Wave.svg') no-repeat bottom, url('../images/ManufacuresBackground.svg');
     background-size: 100%;
-    padding-top: 100px;
-    height: 500px;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.manufactures__title{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.manufactures__slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.manufactures__description{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.slider__arrow{
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.slider__arrow_left{
+background: url('../images/ArrowLeftIcon.svg')
+}
+
+.slider__arrow_right{
+background: url('../images/ArrowRightIcon.svg')
+}
+
+.slider__images {
+    display: flex;
+}
+
+
+.manufactures img {
+    width: 200px;
+    height: 140px;
 }
