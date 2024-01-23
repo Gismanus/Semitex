@@ -46,3 +46,40 @@ background: url('../images/ArrowRightIcon.svg')
     width: 200px;
     height: 140px;
 }
+
+@media (max-width: 760px){
+    .slider__images img:nth-child(n + 4) {
+        display: none;
+    }
+    .manufactures{
+        padding: 40px 0;
+    }
+    .manufactures__title{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    
+    .manufactures__slider {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .manufactures__description{
+        font-size: 14px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+    
+    .slider__arrow{
+        width: 20px;
+        height: 20px;
+        background-size: 100% 100%;
+    }
+    
+    .manufactures img {
+        width: 100px;
+        height: 70px;
+    }
+}
