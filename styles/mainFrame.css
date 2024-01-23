@@ -112,7 +112,7 @@
     font-size: 12px;
   }
   .mainFrame__descriptor ul .checkIcon {
-    background: url("../images/checkIcon.svg") no-repeat;
+    background: url("../images/CheckIcon.svg") no-repeat;
     background-size: 100%;
     height: 5px;  
     width: 7px;
