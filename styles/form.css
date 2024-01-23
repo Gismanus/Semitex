@@ -1,9 +1,4 @@
-.formIcon {
-  display: none;
-  background: url("../images/FormIcon.svg");
-  width: 20px;
-  height: 20px;
-}
+
 
 form {
   width: 380px;
@@ -78,6 +73,11 @@ form .LockIcon {
   background: url("../images/LockIcon.svg");
   margin-right: 5px;
 }
+
+.formIcon {
+    display: none;
+   
+  }
 @media (max-width: 760px) {
   form {
     display: none;
@@ -86,5 +86,10 @@ form .LockIcon {
   /* It is button and it is in header ↓*/
   .formIcon {
     display: block;
+    background: url("../images/FormIcon.svg") 0 0;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    border-radius: 50%;
   }
 }

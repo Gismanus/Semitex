@@ -29,7 +29,7 @@
     order:3;
 }
 .header__phoneIcon{
-    background: url('../images/PhoneIcon.svg');
+    background: url('../images/PhoneIcon.svg') 0 0;
     width: 33px;
     height: 33px;
     
@@ -41,6 +41,7 @@
 
 .formIcon{
     order: 4;
+    
 }
 @media (max-width: 760px) {
     .header{
