@@ -1,0 +1,66 @@
+.faq {
+  background: url("../images/FaqBacground.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: -70px ;
+  padding: 150px 0;
+}
+
+.faq__title {
+  font-size: 45px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.faq__summary {
+    padding: 30px;
+    background: linear-gradient(to bottom, #fff, #BDC0FF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+
+.faq__summary_active {
+    background: linear-gradient(#6a32b4, #552693);
+    color: #fff;
+    margin-bottom: -5px;
+}
+
+.faq .expandIcon {
+    height: 40px;
+    width: 40px;
+    background: url('../images/ExpandIcon.svg');
+}
+.faq .expandIcon_active{
+    height: 40px;
+    width: 40px;
+    background:url('../images/ExpandIconActive.svg');
+}
+.faq__details {
+    background: #fff;
+    padding: 30px;
+border-radius: 10px;
+}
+
+.faq__details p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 760px) {
+  .faq {
+    margin-top: 40px;
+    padding: 60px 0;
+  }
+
+  .faq__title {
+    font-size: 25px;
+  }
+  .faq__summary {
+    font-size: 10px;
+  }
+}

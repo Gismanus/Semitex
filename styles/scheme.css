@@ -1,7 +1,7 @@
 .scheme {
   background: url("../images/SchemeBackground.svg");
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 0 100px;
 }
 
 .scheme__title {
