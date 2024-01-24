@@ -3,7 +3,7 @@
   background-size: cover;
   text-align: center;
   margin-top: -70px ;
-  padding: 150px 0;
+  padding: 150px 0 50px;
 }
 
 .faq__title {
@@ -54,7 +54,7 @@ border-radius: 10px;
 @media (max-width: 760px) {
   .faq {
     margin-top: 40px;
-    padding: 60px 0;
+    padding: 60px 0 20px;
   }
 
   .faq__title {
