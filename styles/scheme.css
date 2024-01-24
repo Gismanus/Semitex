@@ -1,7 +1,7 @@
 .scheme {
   background: url("../images/SchemeBackground.svg");
   text-align: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .scheme__title {
@@ -23,4 +23,13 @@
   border-radius: 10px;
   border: 0;
   margin: 10px 0;
+}
+
+@media (max-width: 760px) {
+  .scheme {
+    padding: 10px 0;
+  }
+  .scheme button {
+    margin: 0;
+  }
 }
