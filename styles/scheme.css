@@ -1,0 +1,26 @@
+.scheme {
+  background: url("../images/SchemeBackground.svg");
+  text-align: center;
+  padding: 100px 0;
+}
+
+.scheme__title {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.scheme__description {
+  margin-top: 40px;
+}
+
+.scheme button {
+  color: #fff;
+  background: #ffa500;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px;
+  width: 340px;
+  border-radius: 10px;
+  border: 0;
+  margin: 10px 0;
+}

@@ -6,6 +6,7 @@
     top: -7px;
     background: rgba(28, 10, 144, 0.8);
     margin: 0 auto 50px;
+    z-index: 1000;
 }
 .header__container {
     display: flex;
